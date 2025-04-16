@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="top">
+            <h1>Tic-Tac-Toe</h1>
+            <div class="score">
+                <p>Score:   <span id="PlayerX"> 0 </span> - <span id="PlayerO"> 0 </span></p>
+            </div>
+
+            <div class="Players">
+                <div class="player" id="PX"><input type="text" id="PXname" name="PXname" value="Player X"></div>
+                <div class="player" id="PO"><input type="text" id="POname" name="POname" value="Player O"></div>
+           
+            </div>
+
+        </div>
+
+
+        <div class="board">
+                <button class="board-cell" data-button="0"></button>
+                <button class="board-cell" data-button="1"></button>
+                <button class="board-cell" data-button="2"></button>
+                <button class="board-cell" data-button="3"></button>
+                <button class="board-cell" data-button="4"></button>
+                <button class="board-cell" data-button="5"></button>
+                <button class="board-cell" data-button="6"></button>
+                <button class="board-cell" data-button="7"></button>
+                <button class="board-cell" data-button="8"></button>
+        </div>
+
+        <div class="message" id="message"></div>
+
+        <div class="bottom">
+            <button id="Start" class="buttons">Start</button>
+            <button id="Restart" class="buttons">Restart</button>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
